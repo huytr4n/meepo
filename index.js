@@ -16,5 +16,5 @@ module.exports = function (name) {
 	if (module)
 		return require(path.join(rootPath, module));
 
-	return;
+	return require(name);
 };
